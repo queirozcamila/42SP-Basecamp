@@ -1,0 +1,7 @@
+#include <unistd.h>
+
+void	ft_putchar(char c) //COLOCA 1 CARACTER
+{
+	write(1, &c, 1); //PRIMEIRO 1 - BYTE DO ESPAÇO ALOCADO PARA ESSE PRINT
+					//IMPRIMI PELO LUGAR DO CARACTER, DIZENDO A QUANTIDADE DE BYTE(1 BYTE).
+}
